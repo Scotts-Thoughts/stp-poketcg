@@ -33,8 +33,8 @@ RGBLINK ?= $(RGBDS)rgblink
 .SECONDARY:
 .PHONY: all tcg clean tidy compare tools
 
-all: $(rom) compare
-tcg: $(rom) compare
+all: $(rom) ### compare ### STP removed so that changes can be made to the game
+tcg: $(rom) ### compare ### STP removed so that changes can be made to the game
 
 clean: tidy
 	find src/gfx \

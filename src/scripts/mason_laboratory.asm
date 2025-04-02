@@ -411,7 +411,8 @@ Script_EnterLabFirstTime:
 	script_nop
 	set_event EVENT_MASON_LAB_STATE, MASON_LAB_IN_PRACTICE_DUEL
 	close_advanced_text_box
-	set_next_npc_and_script NPC_SAM, .ows_d827
+	; set_next_npc_and_script NPC_SAM, .ows_d827
+	set_next_npc_and_script NPC_DRMASON, Script_AfterPracticeDuel ; STP Skip Tutorial Duel
 	end_script
 	ret
 
