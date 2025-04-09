@@ -649,6 +649,27 @@ CharmanderAndFriendsDeck:
 	deck_list_end
 	tx CharmanderAndFriendsDeckName
 
+	; STP Bug Deck
+	; deck_list_start
+	; card_item GRASS_ENERGY,           28
+	; card_item VENONAT,                4
+	; card_item VENOMOTH,               2
+	; card_item WEEDLE,                 4
+	; card_item KAKUNA,                 2
+	; card_item BEEDRILL,               1
+	; card_item CATERPIE,               4
+	; card_item METAPOD,                2
+	; card_item BUTTERFREE,             1
+	; card_item PARAS,                  4
+	; card_item BILL,                   2
+	; card_item SWITCH,                 1
+	; card_item COMPUTER_SEARCH,        1
+	; card_item PLUSPOWER,              1
+	; card_item POTION,                 2
+	; card_item FULL_HEAL,              1
+	; deck_list_end
+	; tx CharmanderAndFriendsDeckName
+
 CharmanderExtraDeck:
 	deck_list_start
 	card_item GRASS_ENERGY,    4
